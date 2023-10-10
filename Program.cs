@@ -67,49 +67,62 @@ namespace MyApp // Note: actual namespace depends on the project name.
  
             // bool myBool = true;
 
-            string[] myGroceryArray = new string[2];
+            // string[] myGroceryArray = new string[2];
 
-            myGroceryArray[0] = "Guacamole";
-            myGroceryArray[1] = "Ice-cream";
+            // myGroceryArray[0] = "Guacamole";
+            // myGroceryArray[1] = "Ice-cream";
 
-            Console.WriteLine(myGroceryArray[0]);
-            Console.WriteLine(myGroceryArray[1]);
-            // Console.WriteLine(myGroceryArray[2]);
+            // Console.WriteLine(myGroceryArray[0]);
+            // Console.WriteLine(myGroceryArray[1]);
+            // // Console.WriteLine(myGroceryArray[2]);
 
-            string[] mySecondGroceryArray = {"Apples", "Eggs"};
-            Console.WriteLine(mySecondGroceryArray[0]);
-            Console.WriteLine(mySecondGroceryArray[1]);
-            // Console.WriteLine(mySecondGroceryArray[2]);
+            // string[] mySecondGroceryArray = {"Apples", "Eggs"};
+            // Console.WriteLine(mySecondGroceryArray[0]);
+            // Console.WriteLine(mySecondGroceryArray[1]);
+            // // Console.WriteLine(mySecondGroceryArray[2]);
 
-            List<string> MyGroceryList = new List<string>() {"Milk", "Cheese"};
-            Console.WriteLine(MyGroceryList[1]);
+            // List<string> MyGroceryList = new List<string>() {"Milk", "Cheese"};
+            // Console.WriteLine(MyGroceryList[1]);
 
-            MyGroceryList.Add("Oranges");
-            Console.WriteLine(MyGroceryList[2]);
+            // MyGroceryList.Add("Oranges");
+            // Console.WriteLine(MyGroceryList[2]);
 
-            IEnumerable<string> myGroceryIEnumerable = MyGroceryList;
-            Console.WriteLine(myGroceryIEnumerable.First());
+            // IEnumerable<string> myGroceryIEnumerable = MyGroceryList;
+            // Console.WriteLine(myGroceryIEnumerable.First());
 
-            string[,] myTwoDimensionalArray = new string[,] {
-                {"Apples", "Eggs"},
-                {"Milk", "Cheese"}
-            };
-            Console.WriteLine(myTwoDimensionalArray[1,1]);
+            // string[,] myTwoDimensionalArray = new string[,] {
+            //     {"Apples", "Eggs"},
+            //     {"Milk", "Cheese"}
+            // };
+            // Console.WriteLine(myTwoDimensionalArray[1,1]);
 
-            Dictionary<string, string[]> myGroceryDictionary = new Dictionary<string, string[]>(){
-                {"Dairy", new string[]{"Cheese", "Milk", "Yogurt", "Eggs"}}
-            };
-            Console.WriteLine(myGroceryDictionary["Dairy"][2]);
+            // Dictionary<string, string[]> myGroceryDictionary = new Dictionary<string, string[]>(){
+            //     {"Dairy", new string[]{"Cheese", "Milk", "Yogurt", "Eggs"}}
+            // };
+            // Console.WriteLine(myGroceryDictionary["Dairy"][2]);
 
-            //Write Your Code Here
-            Dictionary<string, decimal> itemPrices = new Dictionary<string, decimal>(){
-                {"cheese", 5.99m},{"carrots", 2.99m}
-            };
+            // //Write Your Code Here
+            // Dictionary<string, decimal> itemPrices = new Dictionary<string, decimal>(){
+            //     {"cheese", 5.99m},{"carrots", 2.99m}
+            // };
             
-            //Write You Code Above This Line
-            Console.WriteLine(itemPrices["cheese"].GetType());
-            Console.WriteLine(itemPrices["cheese"]);
-            Console.WriteLine(itemPrices["carrots"]);
+            // //Write You Code Above This Line
+            // Console.WriteLine(itemPrices["cheese"].GetType());
+            // Console.WriteLine(itemPrices["cheese"]);
+            // Console.WriteLine(itemPrices["carrots"]);
+
+            // int myInt = 5;
+            // int mySecondInt = 10;
+            // Console.WriteLine(myInt);
+            // myInt++;
+            // Console.WriteLine(myInt);
+
+            // Console.WriteLine(.002-.001);
+            // Console.WriteLine(.002m-.001m);
+            // Console.WriteLine(.002m-.001m);
+            // Console.WriteLine(.002f-.001f);
+            // Console.WriteLine(.002d-.001d);
+
         }
     }
 }

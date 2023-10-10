@@ -100,6 +100,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 {"Dairy", new string[]{"Cheese", "Milk", "Yogurt", "Eggs"}}
             };
             Console.WriteLine(myGroceryDictionary["Dairy"][2]);
+
+            //Write Your Code Here
+            Dictionary<string, decimal> itemPrices = new Dictionary<string, decimal>(){
+                {"cheese", 5.99m},{"carrots", 2.99m}
+            };
+            
+            //Write You Code Above This Line
+            Console.WriteLine(itemPrices["cheese"].GetType());
+            Console.WriteLine(itemPrices["cheese"]);
+            Console.WriteLine(itemPrices["carrots"]);
         }
     }
 }

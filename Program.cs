@@ -5,6 +5,7 @@ using Dapper;
 using HelloWorld.Models;
 using HelloWorld.Data;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -13,8 +14,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
 
-            DataContextDapper dapper = new DataContextDapper();
-            DataContextEF entityFramework = new DataContextEF();
+            IConfiguration config = new ConfigurationBuilder()
+               .AddJsonFile("appsettings.json")
+               .Build();
+
+            DataContextDapper dapper = new DataContextDapper(config);
+            DataContextEF entityFramework = new DataContextEF(config);
 
             DateTime rightNow = dapper.LoadDataSingle<DateTime>("SELECT GETDATE()");
 

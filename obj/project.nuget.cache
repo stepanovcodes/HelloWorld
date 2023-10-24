@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "rtls9U8zEnXpRL15X5FVZENhlWw+R/lsJ+S8iMmkpUBP0l00BdhG2IwTkmbpdNmxauxM1pcrFCrIjVi6EB15UQ==",
+  "dgSpecHash": "9uCfRzUnr3nNoWXHGsW/ST8YGcF/8mdqNlxQvtvfJpcgYAHrUj1asqu2FVpSahltOgpDwFvAxoo2SyFARan7zA==",
   "success": true,
   "projectFilePath": "/Users/aleksandrstepanov/C#/dotnet-course-code/HelloWorld/HelloWorld.csproj",
   "expectedPackageFiles": [
+    "/Users/aleksandrstepanov/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/aleksandrstepanov/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/aleksandrstepanov/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/aleksandrstepanov/.nuget/packages/dapper/2.1.4/dapper.2.1.4.nupkg.sha512",
     "/Users/aleksandrstepanov/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/aleksandrstepanov/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/aleksandrstepanov/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/aleksandrstepanov/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/Users/aleksandrstepanov/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/Users/aleksandrstepanov/.nuget/packages/microsoft.entityframeworkcore/7.0.12/microsoft.entityframeworkcore.7.0.12.nupkg.sha512",

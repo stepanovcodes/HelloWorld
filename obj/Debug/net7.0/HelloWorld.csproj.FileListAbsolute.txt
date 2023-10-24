@@ -69,3 +69,4 @@
 /Users/aleksandrstepanov/C#/dotnet-course-code/HelloWorld/obj/Debug/net7.0/HelloWorld.genruntimeconfig.cache
 /Users/aleksandrstepanov/C#/dotnet-course-code/HelloWorld/obj/Debug/net7.0/ref/HelloWorld.dll
 /Users/aleksandrstepanov/C#/dotnet-course-code/HelloWorld/bin/Debug/net7.0/appsettings.json
+/Users/aleksandrstepanov/C#/dotnet-course-code/HelloWorld/bin/Debug/net7.0/Newtonsoft.Json.dll

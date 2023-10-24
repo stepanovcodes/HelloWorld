@@ -66,13 +66,26 @@ namespace MyApp // Note: actual namespace depends on the project name.
             if (computersSystem != null)
             {
                 IEnumerable<Computer> computerResult = mapper.Map<IEnumerable<Computer>>(computersSystem);
-                foreach (Computer computer in computerResult)
-                {
-                    Console.WriteLine(computer.Motherboard);
-                }
+                Console.WriteLine("Automapper Count: " + computerResult.Count());
+                // foreach (Computer computer in computerResult)
+                // {
+                //     Console.WriteLine(computer.Motherboard);
+                // }
+            }
+
+            IEnumerable<Computer>? computersJsonPropertyMapping = System.Text.Json.JsonSerializer.Deserialize<IEnumerable<Computer>>(computersJson);
+            
+            if (computersJsonPropertyMapping != null)
+            {
+                Console.WriteLine("JSON Property Count: " + computersJsonPropertyMapping.Count());
+                // foreach (Computer computer in computersJsonPropertyMapping)
+                // {
+                //     Console.WriteLine(computer.Motherboard);
+                // }
             }
 
             // Console.WriteLine(computersJson);
+
 
             // JsonSerializerOptions options = new JsonSerializerOptions()
             // {
